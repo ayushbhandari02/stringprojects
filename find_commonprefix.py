@@ -27,7 +27,7 @@ for i in range(min_length):
     common_index = i
 print(common_index)
 if common_index == -1:
-    print("no  prefix found")
+    print("no  prefix found!")
 for k in range(common_index+1):
     print(list[0][k], end=" ")
 if common_index == 0:
